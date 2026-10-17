@@ -1,3 +1,13 @@
+## Configurable image de-identification in Python
+
+This is a development fork of [deid](https://github.com/pydicom/deid), the pydicom community's tools for best-effort de-identification of medical images and text. Upstream provides Python workflows for cleaning metadata and image regions at known locations, offering building blocks for researchers developing and reviewing their own data-preparation processes.
+
+**Merged contribution:** [PR #304](https://github.com/pydicom/deid/pull/304) sets owner-only permissions by default for newly created pixel-cleaner output directories.
+
+Start with the [official documentation](https://pydicom.github.io/deid/) for configuration and examples, and the installation options below. The original project description is preserved with its limitations. Consult the [branch comparison](https://github.com/pydicom/deid/compare/master...jdotc1:master) before choosing a checkout; a merged pull request does not by itself establish inclusion in this fork's default branch.
+
+---
+
 # Deidentify (deid)
 
 Best effort anonymization for medical images in Python.
